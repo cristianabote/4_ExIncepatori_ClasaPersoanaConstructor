@@ -18,7 +18,7 @@ public class Main {
 
 
             Person personNew=new Person("Ana",19,"ana@yahoo.com");
-            System.out.println("Persoana noua din firma se numeste "+personNew.name+" , are "+personNew.age+" ani si are adresa de email: "+personNew.mail);
+            System.out.println("Persoana noua din firma  se numeste "+personNew.name+" , are "+personNew.age+" ani si are adresa de email: "+personNew.mail);
 
     }
 }

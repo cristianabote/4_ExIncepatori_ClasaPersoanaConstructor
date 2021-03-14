@@ -16,14 +16,9 @@ public class Main {
             personOne.mail="ionut@gmail.com";
             System.out.println("Persoana1 se numeste "+personOne.name+" , are "+personOne.age+" ani si are adresa de email: "+personOne.mail);
 
-            Person personTwo=new Person();
-            personTwo.name="Mihaela";
-            personTwo.age=19;
-            personTwo.mail="hei@gmail.com";
-            System.out.println("Persoana2 se numeste "+personTwo.name+" , are "+personTwo.age+" ani si are adresa de email: "+personTwo.mail);
-
+           
             Person personNew=new Person("Ana",19,"ana@yahoo.com");
-        System.out.println("Persoana noua se numeste "+personNew.name+" , are "+personNew.age+" ani si are adresa de email: "+personNew.mail);
+            System.out.println("Persoana noua se numeste "+personNew.name+" , are "+personNew.age+" ani si are adresa de email: "+personNew.mail);
 
     }
 }

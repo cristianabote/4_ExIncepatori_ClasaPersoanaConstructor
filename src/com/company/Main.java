@@ -10,15 +10,15 @@ public class Main {
         intr-un format pe intelesul oricui.*/
 
 
-            Person personOne=new Person();
-            personOne.name="Ionut";
-            personOne.age=29;
-            personOne.mail="ionut@gmail.com";
-            System.out.println("Persoana1 se numeste "+personOne.name+" , are "+personOne.age+" ani si are adresa de email: "+personOne.mail);
+            Person personOld=new Person();
+            personOld.name="Ionut";
+            personOld.age=29;
+            personOld.mail="ionut@gmail.com";
+            System.out.println("Persoana veche din firma se numeste "+personOld.name+" , are "+personOld.age+" ani si are adresa de email: "+personOld.mail);
 
-           
+
             Person personNew=new Person("Ana",19,"ana@yahoo.com");
-            System.out.println("Persoana noua se numeste "+personNew.name+" , are "+personNew.age+" ani si are adresa de email: "+personNew.mail);
+            System.out.println("Persoana noua din firma se numeste "+personNew.name+" , are "+personNew.age+" ani si are adresa de email: "+personNew.mail);
 
     }
 }
